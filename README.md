@@ -1,6 +1,6 @@
 ### **Overview**
 
-This server is meant to be running on a shared computer or server constantly, and will handle HTTP requests to print labels automatically or semi-automatically to speed up workflow. The server itself is written in NodeJS, and is functionally a RESTful server.
+This server is meant to be running on a shared computer or server constantly, and will handle HTTP requests to run PowerShell scripts on a local machine. The server itself is written in NodeJS, and is functionally a RESTful server.
 
 ### **Setup for the server**
 
