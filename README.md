@@ -95,7 +95,7 @@ The server is made to accept [RESTful HTTP requests](https://www.restapitutorial
 
     [hostname]:[port]/execute
 
-* For printing labels, send a [PUT request](https://www.restapitutorial.com/lessons/httpmethods.html#put) with the following information:
+* To run a script, send a [PUT request](https://www.restapitutorial.com/lessons/httpmethods.html#put) with the following information:
     * Script name
     * Whether or not to run Elevated
     * Authentication key (optional inside whitelisted network, but recommended)
