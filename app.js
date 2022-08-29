@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
-const printRoutes = require('./lib/routes/print');
+const executeRoute = require('./lib/routes/execute');
 const returnCode = require('./lib/util/http/returnCode');
 const logger = require('./lib/util/other/logger');
 
 //Route any /print requests
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
-app.use('/print', printRoutes);
+app.use('/execute', executeRoute);
 
 //Log the IP of invalid requests - skimmer catching
 app.use('/favicon.ico', (req, res) => {

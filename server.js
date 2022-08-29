@@ -21,7 +21,7 @@ const ConsoleWindow = require("node-hide-console-window");
 
 //Listen on port (3000)
 logger.log('info', "\n----------------------------------------------------------------".repeat(2));
-logger.log('info', "\n\nServer (" + (constants.protocol.toString().toUpperCase()) + ") started" + (constants.testing ? " [IN TESTING MODE]" : "")  + " and listening on port " + port + ":");
+logger.log('info', "\n\nServer (" + (constants.protocol.toString().toUpperCase()) + ") started" + /*(constants.testing ? " [IN TESTING MODE]" : "")  +*/ " and listening on port " + port + ":");
 server.listen(port);
 
 if(!constants.testing) ConsoleWindow.hideConsole();
