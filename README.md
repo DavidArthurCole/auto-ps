@@ -93,7 +93,7 @@ This server is meant to be running on a shared computer or server constantly, an
 
 The server is made to accept [RESTful HTTP requests](https://www.restapitutorial.com/lessons/httpmethods.html), and thus, to send data to the server, a service that can send REST requests is necessary. For development testing, use [Postman](https://www.postman.com) or another basic request generator. For scripting using Tampermonkey or other injection scripting languages, make use of [`GM.xmlHttpRequest`](https://wiki.greasespot.net/GM.xmlHttpRequest). The main print address for the server will be as follows:
 
-    [hostname]:[port]/print
+    [hostname]:[port]/execute
 
 * For printing labels, send a [PUT request](https://www.restapitutorial.com/lessons/httpmethods.html#put) with the following information:
     * Script name
