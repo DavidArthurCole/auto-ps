@@ -33,7 +33,6 @@ This server is meant to be running on a shared computer or server constantly, an
     AUTODYMO_IP_WHITELIST= #(IP subnet that should be whitelisted)
     LOGGER_URL= #(URL for Papertrails)
     LOGGER_PORT= #(Port for Papertrails)
-
     ```
 
     If you choose to use a custom port for the server (defaulted to 3000), you will also need to define the port with a valid (0 to 65353), unused port number;
